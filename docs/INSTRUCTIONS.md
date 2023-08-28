@@ -6,8 +6,8 @@ Deze leertaak hoort bij sprint 4 Look and Feel. Dit is een opdracht die je indiv
 
 Bij deze leertaak horen de volgende deeltaken:
 
-* [living styleguide](https://github.com/fdnd-task/look-and-feel-living-styleguide)
-* [custom properties](https://github.com/fdnd-task/look-and-feel-custom-properties)
+* [Living styleguide](https://github.com/fdnd-task/look-and-feel-living-styleguide)
+* [Custom properties](https://github.com/fdnd-task/look-and-feel-custom-properties)
 
 ## Doel van deze opdracht
 Je leert hoe onderdelen van een website op basis van een bestaande huisstijl maakt.
@@ -22,23 +22,13 @@ Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel j
 4. Documenteer je proces a.h.v de development life cycle
 5. En schrijf een goede readme
 
-## Criteria
+## Definition of done
 
-De focus van deze sprint ligt op het toepassen van een huisstijl en het maken van formulieren.
-
-Voor deze leertaak gelden de gedragscriteria voor sprint 4: 
-
-* ~~Samenwerken: Draagt verantwoording voor eigen resultaten en verwerkt ontvangen feedback~~
-* Communiceren: Luistert naar wat een ander zegt en neemt dit serieus
-* Probleemoplossend vermogen: Analyseert een vraag en volgt de aangeboden oplossingsrichting
-* Probleemoplossend vermogen: Gebruikt aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving om een passende oplossing voor een opdrachtgever te realiseren
-* ~~Lerend vermogen: Toont beginnend inzicht in eigen capaciteiten en beperkingen en kan deze benoemen~~
+Focus sprint 4 - De focus van deze sprint ligt op het toepassen van een huisstijl en het maken van formulieren.
 
 Deze opdracht is done als:
+
 - [ ] de door jou gemaakte onderdelen onderbouwd en aantoonbaar voldoen aan de huisstijl van de opdrachtgever
 - [ ] je hebt gewerkt volgens de verschillende fases van de development-lifecycle
 - [ ] je hebt je werk gedocumenteerd in de Readme en Wiki (user story, ontwerpbeslissingen, schetsen en code voorbeelden)
 - [ ] de website op Github staat en een live url heeft
-
-
-
