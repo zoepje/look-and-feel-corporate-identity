@@ -2,7 +2,7 @@
 Ontwerp en maak voor een opdrachtgever een component of website op basis van een bestaande huisstijl 
 
 ## Context
-Deze leertaak hoort bij sprint 4 Look and Feel. Dit is een opdracht die je individueel uitvoert voor een opdrachtgever.
+Deze leertaak hoort bij sprint 4 Look and Feel. Dit is een opdracht die je individueel of in een team uitvoert voor een opdrachtgever.
 
 Bij deze leertaak horen de volgende deeltaken:
 
