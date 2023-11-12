@@ -29,6 +29,6 @@ Deze opdracht is done als:
 
 - [ ] je hebt gewerkt volgens de verschillende fases van de development-lifecycle
 - [ ] de door jou gemaakte onderdelen voldoen aantoonbaar aan de huisstijl van de opdrachtgever
-- [ ] de CSS is gestructureerd met custom properties, container queries of media queries en conventies
+- [ ] de CSS is gestructureerd met custom properties en duidelijke conventies
 - [ ] je hebt je werk gedocumenteerd in de Readme en Wiki (met de user story, schetsen en code voorbeelden)
 - [ ] de website op Github staat en een live url heeft
