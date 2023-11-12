@@ -19,7 +19,7 @@ Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel j
 1. Fork deze leertaak.
 2. Kies een user story uit de backlog van het project waar je aan gaat werken, kopieer/plak de user story naar de Wiki van jouw repository.
 4. Gebruik voor de leertaak de _living styleguide_ die je met een team hebt gemaakt voor het toepassen van de huisstijl.
-5. Maak code afspraken met je team en gebruik gestructureerde CSS met custom properties, container queries en conventies.
+5. Maak code afspraken met je team en gebruik gestructureerde CSS met custom properties en conventies.
 6. Documenteer je proces a.h.v de development life cycle.
 7. En schrijf een goede readme voor de opdrachtgever.
 
