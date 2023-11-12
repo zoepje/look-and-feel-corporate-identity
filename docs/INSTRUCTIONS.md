@@ -19,7 +19,7 @@ Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel j
 1. Fork deze leertaak.
 2. Kies een user story uit de backlog van het project waar je aan gaat werken, kopieer/plak de user story naar de Wiki van jouw repository.
 4. Gebruik voor de leertaak de _living styleguide_ die je met een team hebt gemaakt voor het toepassen van de huisstijl.
-5. Ontwerp en maak gestructureerde CSS voor je project
+5. Gebruik gestructureerde CSS voor je project met custom properties en conventies
 6. Documenteer je proces a.h.v de development life cycle
 7. En schrijf een goede readme
 
@@ -27,7 +27,8 @@ Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel j
 
 Deze opdracht is done als:
 
-- [ ] de door jou gemaakte onderdelen onderbouwd en aantoonbaar voldoen aan de huisstijl van de opdrachtgever
 - [ ] je hebt gewerkt volgens de verschillende fases van de development-lifecycle
-- [ ] je hebt je werk gedocumenteerd in de Readme en Wiki (user story, ontwerpbeslissingen, schetsen en code voorbeelden)
+- [ ] de door jou gemaakte onderdelen voldoen aantoonbaar aan de huisstijl van de opdrachtgever
+- [ ] de CSS is gestructureerd met custom properties, container queries of medie queries
+- [ ] je hebt je werk gedocumenteerd in de Readme en Wiki (met de user story, schetsen en code voorbeelden)
 - [ ] de website op Github staat en een live url heeft
