@@ -16,15 +16,14 @@ Je leert hoe onderdelen van een website op basis van een bestaande huisstijl maa
 Bij elke leertaak wordt de development-lifecycle doorlopen. Hierdoor ontwikkel je een standaard aanpak voor frontend praktijkvraagstukken, werk je systematisch aan leertaken, ervaar je de relevantie van het geleerde en verwerf je de kennis, houding en vaardigheden die de beroepspraktijk van je vraagt. De development lifecycle bestaat uit de stappen: Analyseren, Ontwerpen, Bouwen, Integreren en Testen.
 
 ### Aanpak
-1. Kies een user story uit de backlog van het project waar je aan gaat werken. De projecten staan bij [FDND Agency](https://github.com/fdnd-agency).  
-2. Fork deze leertaak
-3. Kopieer/plak de user story waar jij aan gaat werken naar de Wiki van de geforkte repository, dit ga je ontwerpen en maken
-4. Documenteer je proces a.h.v de development life cycle
-5. En schrijf een goede readme
+1. Fork deze leertaak.
+2. Kies een user story uit de backlog van het project waar je aan gaat werken, kopieer/plak de user story naar de Wiki van jouw repository.
+4. Gebruik voor de leertaak de _living styleguide_ die je met een team hebt gemaakt voor het toepassen van de huisstijl.
+5. Ontwerp en maak gestructureerde CSS voor je project
+6. Documenteer je proces a.h.v de development life cycle
+7. En schrijf een goede readme
 
 ## Definition of done
-
-Focus sprint 4 - De focus van deze sprint ligt op het toepassen van een huisstijl en het maken van formulieren.
 
 Deze opdracht is done als:
 
