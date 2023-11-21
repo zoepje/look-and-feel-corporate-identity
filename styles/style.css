@@ -1,6 +1,15 @@
 *{
   font-family: system-ui, -apple-system, Roboto, 'Open Sans', sans-serif;
 }
+
+:root {
+  --white: #fff;
+  --grey: #f6f6f2;
+  --mintgreen: #c2edce;
+  --blue: #388087;
+  --black: #000;
+}
+
 header {
   background-color: white;
   margin-bottom: 1rem;
@@ -17,7 +26,7 @@ h2{
 }
 
 nav{
-  background-color: #c2edce;
+  background-color: var(--blue);
   text-align: center;
 }
 
@@ -36,11 +45,11 @@ nav ul li{
 }
 
 nav a{
-  color:black;
+  color:var(--white);
   text-decoration: none;
 }
 
 nav a:hover{
-  color:#388087;
+  color: beige;
   text-decoration: underline;
 }
