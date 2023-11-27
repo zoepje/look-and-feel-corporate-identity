@@ -20,6 +20,10 @@
 	--darkColor100: #000000;
   --darkColor200: #2f2f2f;
 
+  /* margin/padding */
+  --primaryMargin: 1em;
+  --primaryPadding: 1em;
+  --lineLenght: 30rem;
 }
 
 body{
@@ -47,8 +51,6 @@ nav{
 }
 
 nav ul{
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -56,7 +58,7 @@ nav ul{
 }
 
 nav ul li{
-  padding: 1em;
+  padding: var(--primaryPadding);
   width: 20vw;
 }
 
@@ -70,18 +72,24 @@ nav a:hover{
   text-decoration: underline;
 }
 
-main{
-  margin:1em;
+main {
+  margin: var(--primaryMargin);
 }
 
-section li a {
-  text-decoration: none;
-  color: var(--darkColor100);
+section {
+  margin: var(--primaryMargin);
+
+  & h2 {
+    text-align: center;
+    margin: var(--primaryMargin);
+  }
+
+  & li a {
+    text-decoration: none;
+    color: var(--darkColor100);
+  }
 }
 
-section h2 {
-  text-align: center;
-}
 .scroll{
   overflow: auto; /*Zorgt ervoor dat de lijst scrolled*/
   white-space: nowrap; /*Zorgt ervoor dat de lijst op een lijn blijft staan*/
@@ -89,7 +97,7 @@ section h2 {
 
   & li{
     display: inline-block; /*zorgt ervoor dat list items in de section blijven*/
-    white-space: normal;
+    white-space: normal; /*zorgt ervoor dat de text niet op een lijs blijft staan*/
   }
 }
 
@@ -120,7 +128,7 @@ section h2 {
   & p {
     overflow: unset;
     margin-top: 0.5em;
-    max-width: 30rem;
+    max-width: var(--lineLenght);
   }
 
   & .explanation {
