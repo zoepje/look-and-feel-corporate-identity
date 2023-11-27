@@ -45,6 +45,7 @@ h2{
   text-transform: uppercase;
 }
 
+/*#region Navigation*/
 nav{
   background-color: var(--primaryColor);
   text-align: center;
@@ -71,6 +72,7 @@ nav a:hover{
   color: var(--darkColor100);
   text-decoration: underline;
 }
+/*#endregion */
 
 main {
   margin: var(--primaryMargin);
@@ -117,7 +119,6 @@ section {
     height: 30vh;
     align-self: center;
     min-height: 70px;
-    max-width: 190px;
   }
 
   & h3{
