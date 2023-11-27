@@ -6,15 +6,20 @@
   padding: 0;
 }
 
-:root {
-  --white: #fff;
-  --grey: #f6f6f2;
-  --mintgreen: #c2edce;
-  --blue: #388087;
-  --black: #000;
+:root{
+	/* Font */
+	--primaryFont: system-ui, -apple-system, Roboto, 'Open Sans', sans-serif;
+	--secondaryFont: system-ui, -apple-system, Verdana, sans-serif;
+	
+	/* Kleuren */
+	--primaryColor: #388087;
+	--secondaryColor: #c2edce;
+	--lightColor100: #ffffff;
+	--lightColor200: #f6f6f2;
+	--lightCoror300: #f5f5dc;
+	--darkColor100: #000000;
+  --darkColor200: #2f2f2f;
 
-  /* Font */
-  --primaryFont: system-ui, -apple-system, Roboto, 'Open Sans', sans-serif;
 }
 
 body{
@@ -22,9 +27,9 @@ body{
 }
 
 header {
-  background-color: white;
+  background-color: var(--lightColor100);
   margin: 1rem;
-  color: #388087;
+  color: var(--primaryColor);
   text-align: center;
 }
 
@@ -37,7 +42,7 @@ h2{
 }
 
 nav{
-  background-color: var(--blue);
+  background-color: var(--primaryColor);
   text-align: center;
 }
 
@@ -56,11 +61,71 @@ nav ul li{
 }
 
 nav a{
-  color:var(--white);
+  color:var(--lightColor100);
   text-decoration: none;
 }
 
 nav a:hover{
-  color: beige;
+  color: var(--darkColor100);
   text-decoration: underline;
 }
+
+main{
+  margin:1em;
+}
+
+section li a {
+  text-decoration: none;
+  color: var(--darkColor100);
+}
+
+section h2 {
+  text-align: center;
+}
+.scroll{
+  overflow: auto; /*Zorgt ervoor dat de lijst scrolled*/
+  white-space: nowrap; /*Zorgt ervoor dat de lijst op een lijn blijft staan*/
+  list-style: none;
+
+  & li{
+    display: inline-block; /*zorgt ervoor dat list items in de section blijven*/
+    white-space: normal;
+  }
+}
+
+.card{
+  margin: 0 1em;
+  padding: 0 1em 1.5em;
+  display: flex;
+  flex-direction: column; /*zort ervoor dat de image en tekst onderelkaar komen te staan in de article*/
+  background: var(--secondaryColor);
+  position: relative;
+  width: 70vw;
+  height: 40vh;
+  min-height: 250px;
+  
+  & img{
+    width: 100vw;
+    height: 30vh;
+    align-self: center;
+    min-height: 70px;
+    max-width: 190px;
+  }
+
+  & h3{
+    overflow: unset;
+    text-align: center;
+  }
+  
+  & p {
+    overflow: unset;
+    margin-top: 0.5em;
+    max-width: 30rem;
+  }
+
+  & .explanation {
+    display: none;
+  }
+}  
+
+
