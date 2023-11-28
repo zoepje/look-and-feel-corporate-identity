@@ -19,14 +19,15 @@
 }
 
 aside{
-  margin: var(--primaryMargin);
+  padding: var(--primaryPadding);
+  background-color: var(--secondaryColor);
 }
 
 .initiatief{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(352px, 352px)); /*Zorgt ervoor dat de grid automatisch verandert met het scherm*/
   justify-content: center;
-  width: 80vw;
+  width: 85vw;
   list-style: none;
 
   & li a {
