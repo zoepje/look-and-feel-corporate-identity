@@ -152,8 +152,7 @@ section {
   height: 50vh;
 
   & img {
-    width: 90vw;
-    height: 10vh;
+    display: none;
   }
 
   & .explanation {
