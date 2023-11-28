@@ -18,13 +18,15 @@
   --lineLenght: 30rem;
 }
 
-
+aside{
+  margin: var(--primaryMargin);
+}
 
 .initiatief{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(352px, 352px)); /*Zorgt ervoor dat de grid automatisch verandert met het scherm*/
   justify-content: center;
-  width: 100vw;
+  width: 80vw;
   list-style: none;
 
   & li a {
@@ -38,3 +40,32 @@
 
 }
 
+/*#region MediaQueries*/
+@media only screen and (min-width: 600px){
+  body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+      "h h"
+      "n n"
+      "a m";
+  
+  }
+  
+  header{
+    grid-area: h;
+  }
+  
+  nav{
+    grid-area: n;
+  }
+  
+  aside{
+    grid-area: a;
+  }
+  
+  main{
+    grid-area: m;
+  }
+}
+/*#endregion MediaQueries*/
