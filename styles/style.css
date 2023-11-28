@@ -72,13 +72,17 @@ nav a:hover{
   color: var(--darkColor100);
   text-decoration: underline;
 }
-/*#endregion */
+/*#endregion Nav*/
 
+/*#region Main*/
 main {
   margin: var(--primaryMargin);
 }
 
 section {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
   margin: var(--primaryMargin);
 
   & h2 {
@@ -90,19 +94,18 @@ section {
     text-decoration: none;
     color: var(--darkColor100);
   }
-}
 
-.scroll{
-  overflow: auto; /*Zorgt ervoor dat de lijst scrolled*/
-  white-space: nowrap; /*Zorgt ervoor dat de lijst op een lijn blijft staan*/
-  list-style: none;
-
-  & li{
-    display: inline-block; /*zorgt ervoor dat list items in de section blijven*/
-    white-space: normal; /*zorgt ervoor dat de text niet op een lijs blijft staan*/
+  & .scroll{
+    overflow: auto; /*Zorgt ervoor dat de lijst scrolled*/
+    white-space: nowrap; /*Zorgt ervoor dat de lijst op een lijn blijft staan*/
+    list-style: none;
+  
+    & li{
+      display: inline-block; /*zorgt ervoor dat list items in de section blijven*/
+      white-space: normal; /*zorgt ervoor dat de text niet op een lijs blijft staan*/
+    }
   }
 }
-
 
 /*#region Card*/
 .card{
@@ -115,7 +118,7 @@ section {
   width: 70vw;
   height: 40vh;
   min-height: 250px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 
   & img{
     width: 100vw;
@@ -158,4 +161,25 @@ section {
     overflow: unset;
   }
 }
-/*#endregion*/
+/*#endregion Card*/
+
+/*#endregion Main*/
+
+footer{
+  padding: var(--primaryPadding);
+  background-color: var(--primaryColor);
+  color: var(--lightColor200);
+}
+
+/*#region MediaQueries*/
+@media only screen and (min-width: 600px){
+  .card {
+    max-width: 300px;
+
+    & img{
+      max-width: 300px;
+      max-height: 250px;
+    }
+  }
+}
+/*#endregion MediaQueries*/
