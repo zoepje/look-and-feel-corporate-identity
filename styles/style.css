@@ -38,11 +38,7 @@ header {
   text-align: center;
 }
 
-h1{
-  text-transform: uppercase;
-}
-
-h2{
+h1, h2{
   text-transform: uppercase;
 }
 

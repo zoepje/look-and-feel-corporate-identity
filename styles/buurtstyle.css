@@ -1,5 +1,5 @@
 /*#region Main*/
-main{
+main {
   margin: 0;
 
   & article{
@@ -12,6 +12,26 @@ main{
     margin: var(--primaryMargin) 0;
     max-width: var(--lineLenght);
   }
+
+  & section{
+    align-items: center;
+    text-align: left;
+  }
 }
+
+h1{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.recommendLab{
+  display: none;
+}
+
+.topImg {
+  width: 100vw;
+  height: 30vh;
+}
+
 /*#endregion Main*/
 
