@@ -14,6 +14,7 @@
 	/* Kleuren */
 	--primaryColor: #388087;
 	--secondaryColor: #c2edce;
+  --tertiaryColor: #8fdda6;
 	--lightColor100: #ffffff;
 	--lightColor200: #f6f6f2;
 	--lightCoror300: #f5f5dc;
@@ -21,18 +22,18 @@
   --darkColor200: #2f2f2f;
 
   /* margin/padding */
-  --primaryMargin: 1em;
-  --primaryPadding: 1em;
+  --primaryMargin: 1rem;
+  --primaryPadding: 1rem;
   --lineLenght: 30rem;
 }
 
 body{
   font-family: var(--primaryFont);
+  background-color: var(--lightColor200);
 }
 
 header {
-  background-color: var(--lightColor100);
-  margin: 1rem;
+  margin: var(--primaryMargin);
   color: var(--primaryColor);
   text-align: center;
 }
