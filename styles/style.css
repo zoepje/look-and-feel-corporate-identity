@@ -103,6 +103,8 @@ section {
   }
 }
 
+
+/*#region Card*/
 .card{
   margin: 0 1em;
   padding: 0 1em 1.5em;
@@ -113,7 +115,8 @@ section {
   width: 70vw;
   height: 40vh;
   min-height: 250px;
-  
+  transition: all 0.3s ease;
+
   & img{
     width: 100vw;
     height: 30vh;
@@ -122,6 +125,7 @@ section {
   }
 
   & h3{
+    margin-top: var(--primaryMargin);
     overflow: unset;
     text-align: center;
   }
@@ -133,8 +137,25 @@ section {
   }
 
   & .explanation {
-    display: none;
+    opacity: 0;
+    max-height:0;
+    transition: all 0.3s ease;
+    overflow: hidden;
   }
-}  
+} 
 
+/* Card wordt groter zodat de explanation te lezen is */
+.card:hover{
+  height: 50vh;
 
+  & img {
+    width: 90vw;
+    height: 10vh;
+  }
+
+  & .explanation {
+    opacity: 1;
+    overflow: unset;
+  }
+}
+/*#endregion*/
