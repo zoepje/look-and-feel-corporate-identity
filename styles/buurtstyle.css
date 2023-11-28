@@ -37,9 +37,14 @@ main {
 
   & article{
     padding: var(--primaryPadding);
-    
+    padding-top:0;
+    align-self: center;
   }
 
+  & article :nth-child(1){
+    padding-top:0;
+  }
+  
   & p{
     padding: var(--primaryPadding) 0;
     max-width: var(--lineLenght);
