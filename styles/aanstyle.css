@@ -29,7 +29,8 @@ aside{
     grid-template-areas:
       "h h"
       "n n"
-      "a m";
+      "a m"
+      "f f";
   
   }
   
@@ -47,6 +48,10 @@ aside{
   
   main{
     grid-area: m;
+  }
+
+  footer{
+    grid-area: f;
   }
 
   .initiatief{
