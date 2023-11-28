@@ -101,7 +101,7 @@ section {
   
     & li{
       display: inline-block; /*zorgt ervoor dat list items in de section blijven*/
-      white-space: normal; /*zorgt ervoor dat de text niet op een lijs blijft staan*/
+      white-space: normal; /*zorgt ervoor dat de text niet op een lijn blijft staan*/
     }
   }
 }

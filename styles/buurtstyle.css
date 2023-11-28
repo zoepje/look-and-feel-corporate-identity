@@ -5,10 +5,9 @@ aside{
     padding: var(--primaryPadding);
   }
 }
-
-
 /*#endregion Aside */
 
+/*#region Links */
 section li a{
   color: var(--primaryColor);
 }
@@ -17,13 +16,13 @@ section li a:hover{
   text-decoration: underline;
   color: var(--quaternaryColor);
 }
+/*#endregion Links */
 
 /*#region Main*/
 main {
   margin: 0;
   display:flex;
   flex-direction: column;
-  font-size: 18px;
 
   & .topImg {
     width: 100vw;
@@ -50,14 +49,33 @@ main {
     padding:var(--primaryPadding);
     align-self: center;
   }
+
+  .info{
+    background-color: var(--lightCoror300);
+    margin: 0;
+  }
+}
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+
+  & iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
 }
 
 
 /*#endregion Main*/
 
 /*#region MediaQueries*/
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 750px){
   body{
+    margin: var(primaryMargin);
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-areas:
@@ -93,7 +111,6 @@ main {
 
     & .info {
       grid-area: i;
-      background-color: var(--lightCoror300);
     }
 
     & article {
