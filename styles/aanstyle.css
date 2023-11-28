@@ -27,7 +27,7 @@ aside{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(352px, 352px)); /*Zorgt ervoor dat de grid automatisch verandert met het scherm*/
   justify-content: center;
-  width: 85vw;
+  width: 100vw;
   list-style: none;
 
   & li a {
@@ -67,6 +67,10 @@ aside{
   
   main{
     grid-area: m;
+  }
+
+  .initiatief{
+    width: 85vw;
   }
 }
 /*#endregion MediaQueries*/
