@@ -12,12 +12,13 @@
 	--secondaryFont: system-ui, -apple-system, Verdana, sans-serif;
 	
 	/* Kleuren */
-	--primaryColor: #388087;
+	--primaryColor: #2c666c;
 	--secondaryColor: #c2edce;
-  --tertiaryColor: #8fdda6;
+  --tertiaryColor: #85bf97;
+  --quaternaryColor: #48abb6;
 	--lightColor100: #ffffff;
 	--lightColor200: #f6f6f2;
-	--lightCoror300: #f5f5dc;
+	--lightCoror300: #e7ece2;
 	--darkColor100: #000000;
   --darkColor200: #2f2f2f;
 
@@ -30,6 +31,7 @@
 body{
   font-family: var(--primaryFont);
   background-color: var(--lightColor200);
+  line-height: 1.5;
 }
 
 header {
@@ -115,7 +117,7 @@ section {
   width: 70vw;
   height: 40vh;
   min-height: 250px;
-  transition: all 0.5s ease;
+  transition: all 1s ease;
 
   & img{
     width: 100vw;
