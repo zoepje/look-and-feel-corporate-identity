@@ -137,8 +137,9 @@ En ik media queries gebruikt om de layout te veranderen als je op je laptop de w
 Als je meer details wilt weten over hoe ik dit nou gebouwt heb kun je dit [hier in mijn wiki](https://github.com/zoepje/look-and-feel-corporate-identity/wiki/3.-Bouwen) bekijken.
 
 ## Bronnen
-* 
-* 
+* [Embeded google map](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
+* [MDN](https://developer.mozilla.org/en-US/)
+* [W3schools](https://www.w3schools.com/)
 
 ## Licentie
 
