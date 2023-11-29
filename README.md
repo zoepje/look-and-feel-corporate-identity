@@ -40,8 +40,7 @@ De contactpage waar je een idee voor een initiatief kunt invoeren en op sturen z
 <img width="200" alt="Contactpage mobile" src="https://github.com/zoepje/look-and-feel-corporate-identity/assets/144004461/82654cb5-dc1b-45b2-9752-ed31988d2b8b">
 <img width="800" alt="Contactpage" src="https://github.com/zoepje/look-and-feel-corporate-identity/assets/144004461/1bcdf50f-f4a1-4bd2-88c3-fb3832f2987e">
 
-
-<!-- Voeg een link toe naar Github Pages 🌐-->
+🌐 [Mijn website](https://zoepje.github.io/look-and-feel-corporate-identity/)
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
