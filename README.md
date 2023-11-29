@@ -2,8 +2,8 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Buurtinitiatieven amsterdam west
+De directie van De Hallen heeft ons gevraagt om een website te bouwenvanuit de nieuwe Stichting voor buurtinitiatieven. Het is de bedoeling om een online platform te maken waar buurtinitiatieven uit Oud-West verzameld en bekeken kunnen worden.
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
