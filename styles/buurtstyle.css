@@ -9,12 +9,12 @@ aside{
 
 /*#region Links */
 section li a{
-  color: var(--primaryColor);
+  color: var(--linkColor);
 }
 
 section li a:hover{
   text-decoration: underline;
-  color: var(--quaternaryColor);
+  color: var(--linkColorHov);
 }
 /*#endregion Links */
 

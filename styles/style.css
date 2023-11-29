@@ -12,15 +12,20 @@
 	--secondaryFont: system-ui, -apple-system, Verdana, sans-serif;
 	
 	/* Kleuren */
-	--primaryColor: #2c666c;
+	--primaryColor: #388087;
 	--secondaryColor: #c2edce;
   --tertiaryColor: #85bf97;
   --quaternaryColor: #48abb6;
+  
 	--lightColor100: #ffffff;
 	--lightColor200: #f6f6f2;
 	--lightCoror300: #e7ece2;
+
 	--darkColor100: #000000;
   --darkColor200: #2f2f2f;
+  
+  --linkColor: #0151a8;
+  --linkColorHov: #25575b;
 
   /* margin/padding */
   --primaryMargin: 1rem;

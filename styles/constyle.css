@@ -31,7 +31,7 @@ form{
 button{
 	width: 15vw;
 	min-width: 200px;
-	background-color: var(--quaternaryColor);
+	background-color: var(--secondaryColor);
 	color: var(--darkColor100);
 	text-align: center;
 	padding: 10px;
