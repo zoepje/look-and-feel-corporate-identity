@@ -12,8 +12,18 @@ De directie van De Hallen heeft ons gevraagt om een website te bouwenvanuit de n
   * [Licentie](#licentie)
 
 ## Beschrijving
+Ik heb deze sprint gewerkt aan deze user stories, [overzicht van initiatieven](https://github.com/fdnd-agency/de-hallen/issues/1), [informatie over initiatief](https://github.com/fdnd-agency/de-hallen/issues/2) en [contact formulier](https://github.com/fdnd-agency/de-hallen/issues/4). 
+
+De website heeft verschillende pagina's. De home page waar je een klein overzicht ziet van wat er deze week te doen is en wat er in de buurt te doen is.
+
+**📸 Homepage**
+
+<img width="200" alt="Homepage mobile" src="https://github.com/zoepje/look-and-feel-corporate-identity/assets/144004461/6149251e-8e3c-41cc-8476-9e3d9bf9b848">
+<img width="800" alt="Homepage" src="https://github.com/zoepje/look-and-feel-corporate-identity/assets/144004461/77e92d14-09a2-4b0b-9f15-ed3b8ee4884f">
+
+
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
+
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
