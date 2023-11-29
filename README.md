@@ -5,6 +5,12 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 # Buurtinitiatieven amsterdam west
 De directie van De Hallen heeft ons gevraagt om een website te bouwenvanuit de nieuwe Stichting voor buurtinitiatieven. Het is de bedoeling om een online platform te maken waar buurtinitiatieven uit Oud-West verzameld en bekeken kunnen worden.
 
+## Inhoudsopgave
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
+
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
