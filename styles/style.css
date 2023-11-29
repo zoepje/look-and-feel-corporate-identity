@@ -12,7 +12,7 @@
 	--secondaryFont: system-ui, -apple-system, Verdana, sans-serif;
 	
 	/* Kleuren */
-	--primaryColor: #388087;
+	--primaryColor: #34787e;
 	--secondaryColor: #c2edce;
   --tertiaryColor: #85bf97;
   --quaternaryColor: #48abb6;
@@ -37,6 +37,7 @@ body{
   font-family: var(--primaryFont);
   background-color: var(--lightColor200);
   line-height: 1.5;
+  color: var(--darkColor100);
 }
 
 header {
