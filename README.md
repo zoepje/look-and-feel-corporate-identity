@@ -31,11 +31,15 @@ De aanbodpage waar alle initiatieven te bekijken zijn. Met filters zodat je makk
 ### 📸 Initiatiefpage
 De initiatiefpage waar je alle informatie van het initiatief kunt bekijken. Dit hoort bij [informatie over initiatief](https://github.com/fdnd-agency/de-hallen/issues/2).
 
-<img width="200" alt="Aanbodpage mobile" src="https://github.com/zoepje/look-and-feel-corporate-identity/assets/144004461/81be6f0b-8b2c-4b8f-8ac5-61b4dc3a885f">
-<img width="800" alt="Aanbodpage" src="https://github.com/zoepje/look-and-feel-corporate-identity/assets/144004461/5154df03-3590-4f98-8dfa-23a52d159925">
+<img width="200" alt="Initiatiefpage mobile" src="https://github.com/zoepje/look-and-feel-corporate-identity/assets/144004461/81be6f0b-8b2c-4b8f-8ac5-61b4dc3a885f">
+<img width="800" alt="Initiatiefpage" src="https://github.com/zoepje/look-and-feel-corporate-identity/assets/144004461/5154df03-3590-4f98-8dfa-23a52d159925">
 
 ### 📸 Contactpage
-De contactpage waar je een idee voor een initiatief kunt invoeren en op sturen zodat het uiteindelijk op de website komt te staan.
+De contactpage waar je een idee voor een initiatief kunt invoeren en op sturen zodat het uiteindelijk op de website komt te staan. Dit hoort bij [contact formulier](https://github.com/fdnd-agency/de-hallen/issues/4).
+
+<img width="200" alt="Contactpage mobile" src="https://github.com/zoepje/look-and-feel-corporate-identity/assets/144004461/82654cb5-dc1b-45b2-9752-ed31988d2b8b">
+<img width="800" alt="Contactpage" src="https://github.com/zoepje/look-and-feel-corporate-identity/assets/144004461/1bcdf50f-f4a1-4bd2-88c3-fb3832f2987e">
+
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
