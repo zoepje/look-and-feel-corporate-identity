@@ -1,0 +1,53 @@
+form{
+	margin: auto;
+	width: 400px;
+	display: grid;
+
+	& label{
+		border: none;
+		padding-bottom: 3px;
+		display: flex;
+	}
+
+	& input {
+		border-radius: 5px;
+		border: none;
+		padding-left: 1em;
+		width: 30vw;
+		height: 5vh;
+	}
+
+	& textarea {
+		border-radius: 5px;
+		border: none;
+		padding-left: 1em;
+		width: 30vw;
+		height: 25vh;
+	}
+}
+
+button{
+	width: 15vw;
+	background-color: var(--quaternaryColor);
+	color: var(--darkColor100);
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	transition: all 0.3s;
+	border: none;
+	position: relative;
+	margin-top: 2vh;
+}
+
+button:hover{
+	background-color: var(--darkColor100);
+	color: var(--lightColor200);
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+}
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/constyle.css">
+  <!-- Google icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+
+<body>
+  <header>
+    <h1>Contact</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aanbod.html">Aanbod</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <form onsubmit="return false" id="contactform">
+      <label for="firstName"> Voornaam: </label>
+      <input type="text" placeholder="Voer u naam in" id="firstName" required/>
+      <label for="initiatief"> Wat is uw initiatief: </label>
+      <textarea id="initiatief" placeholder="Vermeld uw initiatief. Beschrijf hierbij de tijd/datum en activiteit" required></textarea>
+      <button onclick="sendContact();"> Verstuur initiatief </button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Contact informatie</p>
+  </footer>
+</body>
+</html>
