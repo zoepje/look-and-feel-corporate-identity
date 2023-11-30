@@ -44,12 +44,102 @@ De contactpage waar je een idee voor een initiatief kunt invoeren en op sturen z
 
 ## Kenmerken
 Bij het bouwen van deze website heb ik gebruik gemaakt van HTML en CSS.
+De HTML van elke pagina heeft een `head` met daarin linkjes naar de css bestanden en een link naar google icons. Dan hebben we een `body` die per pagina een beetje anders is ingedeeld. Maar in het algemeen bestaat de `body` uit een `header`, `nav`, `aside`, `main` & `footer`.
 
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+Ik heb voor elke pagina een CSS bestand aangemaakt en alle paginas zijn gelinkt aan de main CSS. Ik heb gebruik gemaakt van custom properties.
+```css
+:root{
+  /* Font */
+  --primaryFont: system-ui, -apple-system, Roboto, 'Open Sans', sans-serif;
+  --secondaryFont: system-ui, -apple-system, Verdana, sans-serif;
+	
+  /* Kleuren */
+  --primaryColor: #34787e;
+  --secondaryColor: #c2edce;
+  --tertiaryColor: #85bf97;
+  --quaternaryColor: #48abb6;
+  
+  --lightColor100: #ffffff;
+  --lightColor200: #f6f6f2;
+  --lightCoror300: #e7ece2;
+
+  --darkColor100: #000000;
+  --darkColor200: #2f2f2f;
+  
+  --linkColor: #0151a8;
+  --linkColorHov: #25575b;
+
+  /* margin/padding */
+  --primaryMargin: 1rem;
+  --primaryPadding: 1rem;
+  --lineLenght: 30rem;
+}
+```
+
+Ook heb ik `:hover` gebruikt om ervoor te zorgen dat de kaartjes van grootte veranderen en meer informatie laten zien.
+
+```css
+/* Card wordt groter zodat de explanation te lezen is */
+.card:hover{
+  height: 50vh;
+
+  & img {
+    display: none;
+  }
+
+  & .explanation {
+    opacity: 1;
+    overflow: unset;
+  }
+}
+```
+
+En ik media queries gebruikt om de layout te veranderen als je op je laptop de website bekijkt.
+```css
+@media only screen and (min-width: 750px){
+  body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+      "h h"
+      "n n"
+      "a m"
+      "f f";
+  }
+  
+  header{
+    grid-area: h;
+  }
+  
+  nav{
+    grid-area: n;
+  }
+  
+  aside{
+    grid-area: a;
+  }
+  
+  main{
+    grid-area: m;
+  }
+
+  footer{
+    grid-area: f;
+  }
+
+  .initiatief{
+    width: 85vw; /* Zorgt ervoor dat de grid niet wordt geclipt */
+  }
+}
+```
+
+Als je meer details wilt weten over hoe ik dit nou gebouwt heb kun je dit [hier in mijn wiki](https://github.com/zoepje/look-and-feel-corporate-identity/wiki/3.-Bouwen) bekijken.
 
 ## Bronnen
-* 
-* 
+* [Embeded google map](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
+* [MDN](https://developer.mozilla.org/en-US/)
+* [W3schools](https://www.w3schools.com/)
 
 ## Licentie
 
