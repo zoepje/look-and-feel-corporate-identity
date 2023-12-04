@@ -125,7 +125,7 @@ section {
   max-width: 300px;
   height: 40vh;
   min-height: 250px;
-  transition: all 1s ease;
+  transition: all 1.5s ease;
 
   & img{
     width: 100vw;
